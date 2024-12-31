@@ -29,11 +29,10 @@ class OSDatabaseManager:
             return OpenSearch(
                 hosts=[{"host": app_config.OS_DB_URL, "port": app_config.OS_DB_PORT}],
                 http_auth=(app_config.OS_DB_USER, app_config.OS_DB_PWD),
-                # http_compress=True,  # enables gzip compression for request bodies
                 use_ssl=True,
                 verify_certs=True,
-                # ssl_assert_hostname=False,
-                # ssl_show_warn=False,
+                ssl_assert_hostname=False,
+                ssl_show_warn=False,
                 connection_class=RequestsHttpConnection,
                 pool_maxsize=20,
             )
