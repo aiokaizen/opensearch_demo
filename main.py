@@ -125,6 +125,91 @@ def update_mapping():
     return {"status": "error", "object": response}
 
 
+@app.get("/api/v1/dashboard")
+def dashboard():
+    client = opensearch_manager.client
+
+    # City count Aggregation
+    city_count_query = {
+        "size": 0,
+        "aggs": {
+            "cities_count": {
+                "terms": {"field": "home_town.keyword", "size": 10}
+            }  # Return only the 10 highest cities
+        },
+    }
+    result = client.search(city_count_query, KMOUAD_INDEX_NAME)
+    cities_count = result.get("aggregations", {}).get("cities_count", {}).get("buckets")
+
+    # Hobby count Aggregation
+    hobby_count_query = {
+        "size": 0,
+        "aggs": {"hobbies_count": {"terms": {"field": "Hobbies.keyword"}}},
+    }
+    result = client.search(hobby_count_query, KMOUAD_INDEX_NAME)
+    hobbies_count = (
+        result.get("aggregations", {}).get("hobbies_count", {}).get("buckets")
+    )
+
+    # Age stats Aggregation
+    age_stats_query = {"size": 0, "aggs": {"age_stats": {"stats": {"field": "age"}}}}
+    result = client.search(age_stats_query, KMOUAD_INDEX_NAME)
+    age_stats = result.get("aggregations", {}).get("age_stats", {})
+
+    # Start date histogram Aggregation
+    start_date_histogram_query = {
+        "size": 0,
+        "aggs": {
+            "start_date_histogram": {
+                "date_histogram": {
+                    "field": "experience.start_date",
+                    "calendar_interval": "year",
+                }
+            }
+        },
+    }
+    result = client.search(start_date_histogram_query, KMOUAD_INDEX_NAME)
+    start_date_histogram = (
+        result.get("aggregations", {}).get("start_date_histogram", {}).get("buckets")
+    )
+
+    # End date histogram Aggregation
+    end_date_histogram_query = {
+        "size": 0,
+        "aggs": {
+            "end_date_histogram": {
+                "date_histogram": {
+                    "field": "experience.end_date",
+                    "calendar_interval": "year",
+                }
+            }
+        },
+    }
+    result = client.search(end_date_histogram_query, KMOUAD_INDEX_NAME)
+    end_date_histogram = (
+        result.get("aggregations", {}).get("end_date_histogram", {}).get("buckets")
+    )
+
+    # Age histogram Aggregation
+    age_histogram_query = {
+        "size": 0,
+        "aggs": {"age_histogram": {"histogram": {"field": "age", "interval": 10}}},
+    }
+    result = client.search(age_histogram_query, KMOUAD_INDEX_NAME)
+    age_histogram = (
+        result.get("aggregations", {}).get("age_histogram", {}).get("buckets")
+    )
+
+    return {
+        "cities_count": cities_count,
+        "hobbies_count": hobbies_count,
+        "age_stats": age_stats,
+        "start_date_histogram": start_date_histogram,
+        "end_date_histogram": end_date_histogram,
+        "age_histogram": age_histogram,
+    }
+
+
 @app.put("/api/v1/update_doc/{id}")
 def update_document(id: str, new_data: dict[str, Any]):
     client = opensearch_manager.client
