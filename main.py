@@ -21,9 +21,10 @@ def clear_cache(client: OpenSearch, index: str):
     print(f"Field data and request cache for '{index}' index cleared!")
 
 
-@app.get("/")
+@app.get("/api/v1")
 def health_check():
-    return {"status": "success"}
+    client = opensearch_manager.client
+    return client.indices.get(KMOUAD_INDEX_NAME)
 
 
 @app.post("/api/v1/create_index")
