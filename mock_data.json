@@ -11,18 +11,18 @@
         "experience": [
             {
                 "company": "NextGen Solutions",
-                "start_date": "09-29-2018",
-                "end_date": "09-30-2022"
+                "start_date": "2018-09-29",
+                "end_date": "2022-09-30"
             },
             {
                 "company": "PayTic",
-                "start_date": "08-31-2018",
-                "end_date": "01-09-2019"
+                "start_date": "2018-08-31",
+                "end_date": "2019-01-09"
             },
             {
                 "company": "PayTic",
-                "start_date": "02-13-2021",
-                "end_date": "08-10-2021"
+                "start_date": "2021-02-13",
+                "end_date": "2021-08-10"
             }
         ]
     },
@@ -39,7 +39,7 @@
         "experience": [
             {
                 "company": "PayTic",
-                "start_date": "04-26-2016",
+                "start_date": "2016-04-26",
                 "end_date": null
             }
         ]
@@ -57,8 +57,8 @@
         "experience": [
             {
                 "company": "NextGen Solutions",
-                "start_date": "10-01-2023",
-                "end_date": "08-25-2024"
+                "start_date": "2023-10-01",
+                "end_date": "2024-08-25"
             }
         ]
     },
@@ -74,17 +74,17 @@
         "experience": [
             {
                 "company": "BrightTech",
-                "start_date": "07-26-2017",
+                "start_date": "2017-07-26",
                 "end_date": null
             },
             {
                 "company": "BrightTech",
-                "start_date": "12-25-2024",
+                "start_date": "2024-12-25",
                 "end_date": null
             },
             {
                 "company": "FutureWay",
-                "start_date": "01-12-2024",
+                "start_date": "2024-01-12",
                 "end_date": null
             }
         ]
@@ -100,8 +100,8 @@
         "experience": [
             {
                 "company": "GlobalCorp",
-                "start_date": "07-29-2024",
-                "end_date": "11-23-2024"
+                "start_date": "2024-07-29",
+                "end_date": "2024-11-23"
             }
         ]
     },
@@ -118,18 +118,18 @@
         "experience": [
             {
                 "company": "InnovaTech",
-                "start_date": "10-18-2020",
+                "start_date": "2020-10-18",
                 "end_date": null
             },
             {
                 "company": "NextGen Solutions",
-                "start_date": "09-23-2019",
-                "end_date": "10-13-2024"
+                "start_date": "2019-09-23",
+                "end_date": "2024-10-13"
             },
             {
                 "company": "NextGen Solutions",
-                "start_date": "09-26-2024",
-                "end_date": "10-12-2024"
+                "start_date": "2024-09-26",
+                "end_date": "2024-10-12"
             }
         ]
     },
@@ -144,13 +144,13 @@
         "experience": [
             {
                 "company": "FutureWay",
-                "start_date": "10-16-2015",
+                "start_date": "2015-10-16",
                 "end_date": null
             },
             {
                 "company": "InnovaTech",
-                "start_date": "03-16-2022",
-                "end_date": "06-30-2023"
+                "start_date": "2022-03-16",
+                "end_date": "2023-06-30"
             }
         ]
     },
@@ -166,17 +166,17 @@
         "experience": [
             {
                 "company": "InnovaTech",
-                "start_date": "12-30-2017",
-                "end_date": "06-10-2020"
+                "start_date": "2017-12-30",
+                "end_date": "2020-06-10"
             },
             {
                 "company": "CIH",
-                "start_date": "09-25-2019",
-                "end_date": "08-08-2022"
+                "start_date": "2019-09-25",
+                "end_date": "2022-08-08"
             },
             {
                 "company": "InnovaTech",
-                "start_date": "10-26-2017",
+                "start_date": "2017-10-26",
                 "end_date": null
             }
         ]
@@ -192,13 +192,13 @@
         "experience": [
             {
                 "company": "NextGen Solutions",
-                "start_date": "02-25-2023",
-                "end_date": "08-06-2023"
+                "start_date": "2023-02-25",
+                "end_date": "2023-08-06"
             },
             {
                 "company": "BrightTech",
-                "start_date": "10-04-2015",
-                "end_date": "08-12-2016"
+                "start_date": "2015-10-04",
+                "end_date": "2016-08-12"
             }
         ]
     },
@@ -216,17 +216,17 @@
         "experience": [
             {
                 "company": "CIH",
-                "start_date": "01-10-2017",
-                "end_date": "02-09-2019"
+                "start_date": "2017-01-10",
+                "end_date": "2019-02-09"
             },
             {
                 "company": "FutureWay",
-                "start_date": "11-12-2022",
-                "end_date": "06-03-2024"
+                "start_date": "2022-11-12",
+                "end_date": "2024-06-03"
             },
             {
                 "company": "VisionaryHub",
-                "start_date": "08-30-2017",
+                "start_date": "2017-08-30",
                 "end_date": null
             }
         ]
@@ -243,7 +243,7 @@
         "experience": [
             {
                 "company": "VisionaryHub",
-                "start_date": "07-16-2024",
+                "start_date": "2024-07-16",
                 "end_date": null
             }
         ]
@@ -259,8 +259,8 @@
         "experience": [
             {
                 "company": "InnovaTech",
-                "start_date": "06-05-2018",
-                "end_date": "10-04-2024"
+                "start_date": "2018-06-05",
+                "end_date": "2024-10-04"
             }
         ]
     },
@@ -275,13 +275,13 @@
         "experience": [
             {
                 "company": "PayTic",
-                "start_date": "06-27-2022",
+                "start_date": "2022-06-27",
                 "end_date": null
             },
             {
                 "company": "GlobalCorp",
-                "start_date": "02-03-2022",
-                "end_date": "09-21-2022"
+                "start_date": "2022-02-03",
+                "end_date": "2022-09-21"
             }
         ]
     },
@@ -296,12 +296,12 @@
         "experience": [
             {
                 "company": "VisionaryHub",
-                "start_date": "12-17-2024",
-                "end_date": "12-30-2024"
+                "start_date": "2024-12-17",
+                "end_date": "2024-12-30"
             },
             {
                 "company": "GlobalCorp",
-                "start_date": "09-17-2015",
+                "start_date": "2015-09-17",
                 "end_date": null
             }
         ]
@@ -317,8 +317,8 @@
         "experience": [
             {
                 "company": "PayTic",
-                "start_date": "11-01-2018",
-                "end_date": "12-12-2024"
+                "start_date": "2018-11-01",
+                "end_date": "2024-12-12"
             }
         ]
     },
@@ -334,13 +334,13 @@
         "experience": [
             {
                 "company": "CIH",
-                "start_date": "06-19-2016",
-                "end_date": "05-25-2021"
+                "start_date": "2016-06-19",
+                "end_date": "2021-05-25"
             },
             {
                 "company": "CIH",
-                "start_date": "08-17-2022",
-                "end_date": "11-16-2024"
+                "start_date": "2022-08-17",
+                "end_date": "2024-11-16"
             }
         ]
     },
@@ -358,18 +358,18 @@
         "experience": [
             {
                 "company": "CIH",
-                "start_date": "01-01-2017",
-                "end_date": "11-15-2024"
+                "start_date": "2017-01-01",
+                "end_date": "2024-11-15"
             },
             {
                 "company": "BrightTech",
-                "start_date": "01-15-2016",
-                "end_date": "07-23-2020"
+                "start_date": "2016-01-15",
+                "end_date": "2020-07-23"
             },
             {
                 "company": "GlobalCorp",
-                "start_date": "05-18-2024",
-                "end_date": "09-26-2024"
+                "start_date": "2024-05-18",
+                "end_date": "2024-09-26"
             }
         ]
     },
@@ -385,18 +385,18 @@
         "experience": [
             {
                 "company": "InnovaTech",
-                "start_date": "11-12-2020",
-                "end_date": "12-16-2023"
+                "start_date": "2020-11-12",
+                "end_date": "2023-12-16"
             },
             {
                 "company": "NextGen Solutions",
-                "start_date": "02-21-2023",
+                "start_date": "2023-02-21",
                 "end_date": null
             },
             {
                 "company": "NextGen Solutions",
-                "start_date": "01-05-2024",
-                "end_date": "09-03-2024"
+                "start_date": "2024-01-05",
+                "end_date": "2024-09-03"
             }
         ]
     },
@@ -412,12 +412,12 @@
         "experience": [
             {
                 "company": "NextGen Solutions",
-                "start_date": "05-06-2020",
-                "end_date": "12-09-2020"
+                "start_date": "2020-05-06",
+                "end_date": "2020-12-09"
             },
             {
                 "company": "NextGen Solutions",
-                "start_date": "08-01-2016",
+                "start_date": "2016-08-01",
                 "end_date": null
             }
         ]
@@ -434,12 +434,12 @@
         "experience": [
             {
                 "company": "PayTic",
-                "start_date": "02-02-2015",
-                "end_date": "07-28-2016"
+                "start_date": "2015-02-02",
+                "end_date": "2016-07-28"
             },
             {
                 "company": "NextGen Solutions",
-                "start_date": "04-20-2018",
+                "start_date": "2018-04-20",
                 "end_date": null
             }
         ]
@@ -456,7 +456,7 @@
         "experience": [
             {
                 "company": "InnovaTech",
-                "start_date": "11-26-2018",
+                "start_date": "2018-11-26",
                 "end_date": null
             }
         ]
@@ -475,8 +475,8 @@
         "experience": [
             {
                 "company": "NextGen Solutions",
-                "start_date": "12-06-2023",
-                "end_date": "08-13-2024"
+                "start_date": "2023-12-06",
+                "end_date": "2024-08-13"
             }
         ]
     },
@@ -491,17 +491,17 @@
         "experience": [
             {
                 "company": "CIH",
-                "start_date": "02-22-2018",
+                "start_date": "2018-02-22",
                 "end_date": null
             },
             {
                 "company": "GlobalCorp",
-                "start_date": "10-17-2022",
-                "end_date": "01-27-2023"
+                "start_date": "2022-10-17",
+                "end_date": "2023-01-27"
             },
             {
                 "company": "BrightTech",
-                "start_date": "04-02-2022",
+                "start_date": "2022-04-02",
                 "end_date": null
             }
         ]
@@ -518,7 +518,7 @@
         "experience": [
             {
                 "company": "PayTic",
-                "start_date": "03-25-2023",
+                "start_date": "2023-03-25",
                 "end_date": null
             }
         ]
@@ -534,17 +534,17 @@
         "experience": [
             {
                 "company": "NextGen Solutions",
-                "start_date": "09-01-2018",
-                "end_date": "06-03-2021"
+                "start_date": "2018-09-01",
+                "end_date": "2021-06-03"
             },
             {
                 "company": "CIH",
-                "start_date": "08-04-2023",
-                "end_date": "04-08-2024"
+                "start_date": "2023-08-04",
+                "end_date": "2024-04-08"
             },
             {
                 "company": "InnovaTech",
-                "start_date": "07-08-2015",
+                "start_date": "2015-07-08",
                 "end_date": null
             }
         ]
@@ -562,18 +562,18 @@
         "experience": [
             {
                 "company": "CIH",
-                "start_date": "07-08-2017",
+                "start_date": "2017-07-08",
                 "end_date": null
             },
             {
                 "company": "CIH",
-                "start_date": "02-28-2015",
+                "start_date": "2015-02-28",
                 "end_date": null
             },
             {
                 "company": "GlobalCorp",
-                "start_date": "11-04-2023",
-                "end_date": "09-25-2024"
+                "start_date": "2023-11-04",
+                "end_date": "2024-09-25"
             }
         ]
     },
@@ -588,13 +588,13 @@
         "experience": [
             {
                 "company": "FutureWay",
-                "start_date": "03-08-2017",
-                "end_date": "12-30-2018"
+                "start_date": "2017-03-08",
+                "end_date": "2018-12-30"
             },
             {
                 "company": "BrightTech",
-                "start_date": "06-20-2016",
-                "end_date": "10-23-2018"
+                "start_date": "2016-06-20",
+                "end_date": "2018-10-23"
             }
         ]
     },
@@ -610,12 +610,12 @@
         "experience": [
             {
                 "company": "PayTic",
-                "start_date": "04-27-2016",
+                "start_date": "2016-04-27",
                 "end_date": null
             },
             {
                 "company": "FutureWay",
-                "start_date": "09-29-2024",
+                "start_date": "2024-09-29",
                 "end_date": null
             }
         ]
@@ -631,8 +631,8 @@
         "experience": [
             {
                 "company": "InnovaTech",
-                "start_date": "12-21-2020",
-                "end_date": "01-22-2023"
+                "start_date": "2020-12-21",
+                "end_date": "2023-01-22"
             }
         ]
     },
@@ -649,7 +649,7 @@
         "experience": [
             {
                 "company": "BrightTech",
-                "start_date": "12-24-2021",
+                "start_date": "2021-12-24",
                 "end_date": null
             }
         ]
@@ -668,17 +668,17 @@
         "experience": [
             {
                 "company": "BrightTech",
-                "start_date": "02-22-2022",
-                "end_date": "10-05-2022"
+                "start_date": "2022-02-22",
+                "end_date": "2022-10-05"
             },
             {
                 "company": "PayTic",
-                "start_date": "11-03-2019",
-                "end_date": "07-19-2024"
+                "start_date": "2019-11-03",
+                "end_date": "2024-07-19"
             },
             {
                 "company": "BrightTech",
-                "start_date": "02-15-2020",
+                "start_date": "2020-02-15",
                 "end_date": null
             }
         ]
@@ -695,13 +695,13 @@
         "experience": [
             {
                 "company": "GlobalCorp",
-                "start_date": "05-26-2024",
-                "end_date": "12-07-2024"
+                "start_date": "2024-05-26",
+                "end_date": "2024-12-07"
             },
             {
                 "company": "CIH",
-                "start_date": "07-30-2018",
-                "end_date": "05-09-2022"
+                "start_date": "2018-07-30",
+                "end_date": "2022-05-09"
             }
         ]
     },
@@ -716,12 +716,12 @@
         "experience": [
             {
                 "company": "VisionaryHub",
-                "start_date": "12-24-2015",
-                "end_date": "03-21-2019"
+                "start_date": "2015-12-24",
+                "end_date": "2019-03-21"
             },
             {
                 "company": "VisionaryHub",
-                "start_date": "10-10-2017",
+                "start_date": "2017-10-10",
                 "end_date": null
             }
         ]
@@ -738,8 +738,8 @@
         "experience": [
             {
                 "company": "InnovaTech",
-                "start_date": "05-15-2024",
-                "end_date": "06-24-2024"
+                "start_date": "2024-05-15",
+                "end_date": "2024-06-24"
             }
         ]
     },
@@ -754,17 +754,17 @@
         "experience": [
             {
                 "company": "VisionaryHub",
-                "start_date": "10-06-2016",
-                "end_date": "09-27-2023"
+                "start_date": "2016-10-06",
+                "end_date": "2023-09-27"
             },
             {
                 "company": "VisionaryHub",
-                "start_date": "05-21-2023",
+                "start_date": "2023-05-21",
                 "end_date": null
             },
             {
                 "company": "VisionaryHub",
-                "start_date": "10-06-2019",
+                "start_date": "2019-10-06",
                 "end_date": null
             }
         ]
@@ -780,18 +780,18 @@
         "experience": [
             {
                 "company": "FutureWay",
-                "start_date": "06-07-2022",
+                "start_date": "2022-06-07",
                 "end_date": null
             },
             {
                 "company": "CIH",
-                "start_date": "11-19-2015",
+                "start_date": "2015-11-19",
                 "end_date": null
             },
             {
                 "company": "FutureWay",
-                "start_date": "08-01-2020",
-                "end_date": "01-03-2022"
+                "start_date": "2020-08-01",
+                "end_date": "2022-01-03"
             }
         ]
     },
@@ -806,17 +806,17 @@
         "experience": [
             {
                 "company": "VisionaryHub",
-                "start_date": "07-30-2022",
-                "end_date": "01-09-2023"
+                "start_date": "2022-07-30",
+                "end_date": "2023-01-09"
             },
             {
                 "company": "NextGen Solutions",
-                "start_date": "09-12-2020",
-                "end_date": "11-12-2023"
+                "start_date": "2020-09-12",
+                "end_date": "2023-11-12"
             },
             {
                 "company": "InnovaTech",
-                "start_date": "07-01-2022",
+                "start_date": "2022-07-01",
                 "end_date": null
             }
         ]
@@ -832,18 +832,18 @@
         "experience": [
             {
                 "company": "GlobalCorp",
-                "start_date": "04-27-2015",
+                "start_date": "2015-04-27",
                 "end_date": null
             },
             {
                 "company": "FutureWay",
-                "start_date": "01-06-2015",
-                "end_date": "01-13-2022"
+                "start_date": "2015-01-06",
+                "end_date": "2022-01-13"
             },
             {
                 "company": "CIH",
-                "start_date": "09-30-2021",
-                "end_date": "06-03-2023"
+                "start_date": "2021-09-30",
+                "end_date": "2023-06-03"
             }
         ]
     },
@@ -859,13 +859,13 @@
         "experience": [
             {
                 "company": "BrightTech",
-                "start_date": "08-19-2022",
+                "start_date": "2022-08-19",
                 "end_date": null
             },
             {
                 "company": "NextGen Solutions",
-                "start_date": "01-21-2024",
-                "end_date": "10-12-2024"
+                "start_date": "2024-01-21",
+                "end_date": "2024-10-12"
             }
         ]
     },
@@ -883,12 +883,12 @@
         "experience": [
             {
                 "company": "PayTic",
-                "start_date": "09-12-2016",
-                "end_date": "11-20-2017"
+                "start_date": "2016-09-12",
+                "end_date": "2017-11-20"
             },
             {
                 "company": "NextGen Solutions",
-                "start_date": "07-25-2019",
+                "start_date": "2019-07-25",
                 "end_date": null
             }
         ]
@@ -906,17 +906,17 @@
         "experience": [
             {
                 "company": "FutureWay",
-                "start_date": "03-11-2024",
-                "end_date": "05-19-2024"
+                "start_date": "2024-03-11",
+                "end_date": "2024-05-19"
             },
             {
                 "company": "CIH",
-                "start_date": "12-12-2017",
+                "start_date": "2017-12-12",
                 "end_date": null
             },
             {
                 "company": "VisionaryHub",
-                "start_date": "06-12-2018",
+                "start_date": "2018-06-12",
                 "end_date": null
             }
         ]
@@ -935,7 +935,7 @@
         "experience": [
             {
                 "company": "InnovaTech",
-                "start_date": "08-20-2015",
+                "start_date": "2015-08-20",
                 "end_date": null
             }
         ]
@@ -953,17 +953,17 @@
         "experience": [
             {
                 "company": "FutureWay",
-                "start_date": "10-25-2022",
+                "start_date": "2022-10-25",
                 "end_date": null
             },
             {
                 "company": "GlobalCorp",
-                "start_date": "05-27-2023",
+                "start_date": "2023-05-27",
                 "end_date": null
             },
             {
                 "company": "CIH",
-                "start_date": "03-14-2015",
+                "start_date": "2015-03-14",
                 "end_date": null
             }
         ]
@@ -979,18 +979,18 @@
         "experience": [
             {
                 "company": "GlobalCorp",
-                "start_date": "09-30-2015",
-                "end_date": "04-28-2024"
+                "start_date": "2015-09-30",
+                "end_date": "2024-04-28"
             },
             {
                 "company": "PayTic",
-                "start_date": "01-02-2022",
-                "end_date": "05-26-2023"
+                "start_date": "2022-01-02",
+                "end_date": "2023-05-26"
             },
             {
                 "company": "FutureWay",
-                "start_date": "03-13-2020",
-                "end_date": "10-23-2024"
+                "start_date": "2020-03-13",
+                "end_date": "2024-10-23"
             }
         ]
     },
@@ -1006,13 +1006,13 @@
         "experience": [
             {
                 "company": "PayTic",
-                "start_date": "07-13-2019",
+                "start_date": "2019-07-13",
                 "end_date": null
             },
             {
                 "company": "CIH",
-                "start_date": "11-01-2016",
-                "end_date": "09-16-2023"
+                "start_date": "2016-11-01",
+                "end_date": "2023-09-16"
             }
         ]
     },
@@ -1028,18 +1028,18 @@
         "experience": [
             {
                 "company": "PayTic",
-                "start_date": "12-30-2015",
+                "start_date": "2015-12-30",
                 "end_date": null
             },
             {
                 "company": "NextGen Solutions",
-                "start_date": "07-26-2024",
+                "start_date": "2024-07-26",
                 "end_date": null
             },
             {
                 "company": "FutureWay",
-                "start_date": "09-11-2016",
-                "end_date": "12-11-2018"
+                "start_date": "2016-09-11",
+                "end_date": "2018-12-11"
             }
         ]
     },
@@ -1056,13 +1056,13 @@
         "experience": [
             {
                 "company": "BrightTech",
-                "start_date": "03-27-2020",
-                "end_date": "07-07-2024"
+                "start_date": "2020-03-27",
+                "end_date": "2024-07-07"
             },
             {
                 "company": "BrightTech",
-                "start_date": "09-14-2018",
-                "end_date": "03-25-2022"
+                "start_date": "2018-09-14",
+                "end_date": "2022-03-25"
             }
         ]
     },
@@ -1077,8 +1077,8 @@
         "experience": [
             {
                 "company": "VisionaryHub",
-                "start_date": "12-20-2021",
-                "end_date": "10-17-2023"
+                "start_date": "2021-12-20",
+                "end_date": "2023-10-17"
             }
         ]
     },
@@ -1095,12 +1095,12 @@
         "experience": [
             {
                 "company": "NextGen Solutions",
-                "start_date": "07-14-2020",
+                "start_date": "2020-07-14",
                 "end_date": null
             },
             {
                 "company": "GlobalCorp",
-                "start_date": "04-21-2022",
+                "start_date": "2022-04-21",
                 "end_date": null
             }
         ]
@@ -1116,17 +1116,17 @@
         "experience": [
             {
                 "company": "BrightTech",
-                "start_date": "11-17-2022",
-                "end_date": "10-05-2024"
+                "start_date": "2022-11-17",
+                "end_date": "2024-10-05"
             },
             {
                 "company": "VisionaryHub",
-                "start_date": "06-11-2016",
-                "end_date": "02-13-2023"
+                "start_date": "2016-06-11",
+                "end_date": "2023-02-13"
             },
             {
                 "company": "BrightTech",
-                "start_date": "03-27-2019",
+                "start_date": "2019-03-27",
                 "end_date": null
             }
         ]
@@ -1145,12 +1145,12 @@
         "experience": [
             {
                 "company": "GlobalCorp",
-                "start_date": "11-25-2023",
+                "start_date": "2023-11-25",
                 "end_date": null
             },
             {
                 "company": "PayTic",
-                "start_date": "01-27-2018",
+                "start_date": "2018-01-27",
                 "end_date": null
             }
         ]
@@ -1167,7 +1167,7 @@
         "experience": [
             {
                 "company": "NextGen Solutions",
-                "start_date": "10-24-2022",
+                "start_date": "2022-10-24",
                 "end_date": null
             }
         ]
@@ -1186,12 +1186,12 @@
         "experience": [
             {
                 "company": "NextGen Solutions",
-                "start_date": "04-24-2022",
-                "end_date": "10-04-2023"
+                "start_date": "2022-04-24",
+                "end_date": "2023-10-04"
             },
             {
                 "company": "CIH",
-                "start_date": "12-27-2022",
+                "start_date": "2022-12-27",
                 "end_date": null
             }
         ]
@@ -1210,13 +1210,13 @@
         "experience": [
             {
                 "company": "VisionaryHub",
-                "start_date": "04-21-2022",
+                "start_date": "2022-04-21",
                 "end_date": null
             },
             {
                 "company": "VisionaryHub",
-                "start_date": "01-01-2015",
-                "end_date": "06-28-2019"
+                "start_date": "2015-01-01",
+                "end_date": "2019-06-28"
             }
         ]
     },
@@ -1233,17 +1233,17 @@
         "experience": [
             {
                 "company": "InnovaTech",
-                "start_date": "05-27-2022",
-                "end_date": "05-27-2023"
+                "start_date": "2022-05-27",
+                "end_date": "2023-05-27"
             },
             {
                 "company": "CIH",
-                "start_date": "11-19-2021",
-                "end_date": "08-18-2023"
+                "start_date": "2021-11-19",
+                "end_date": "2023-08-18"
             },
             {
                 "company": "GlobalCorp",
-                "start_date": "10-13-2022",
+                "start_date": "2022-10-13",
                 "end_date": null
             }
         ]
@@ -1262,8 +1262,8 @@
         "experience": [
             {
                 "company": "BrightTech",
-                "start_date": "08-27-2017",
-                "end_date": "05-30-2024"
+                "start_date": "2017-08-27",
+                "end_date": "2024-05-30"
             }
         ]
     },
@@ -1278,13 +1278,13 @@
         "experience": [
             {
                 "company": "PayTic",
-                "start_date": "02-11-2023",
-                "end_date": "09-19-2023"
+                "start_date": "2023-02-11",
+                "end_date": "2023-09-19"
             },
             {
                 "company": "GlobalCorp",
-                "start_date": "08-07-2018",
-                "end_date": "10-18-2024"
+                "start_date": "2018-08-07",
+                "end_date": "2024-10-18"
             }
         ]
     },
@@ -1299,12 +1299,12 @@
         "experience": [
             {
                 "company": "NextGen Solutions",
-                "start_date": "06-15-2022",
+                "start_date": "2022-06-15",
                 "end_date": null
             },
             {
                 "company": "BrightTech",
-                "start_date": "11-14-2019",
+                "start_date": "2019-11-14",
                 "end_date": null
             }
         ]
@@ -1321,7 +1321,7 @@
         "experience": [
             {
                 "company": "FutureWay",
-                "start_date": "11-13-2015",
+                "start_date": "2015-11-13",
                 "end_date": null
             }
         ]
@@ -1338,12 +1338,12 @@
         "experience": [
             {
                 "company": "FutureWay",
-                "start_date": "09-21-2019",
+                "start_date": "2019-09-21",
                 "end_date": null
             },
             {
                 "company": "PayTic",
-                "start_date": "05-04-2018",
+                "start_date": "2018-05-04",
                 "end_date": null
             }
         ]
@@ -1362,12 +1362,12 @@
         "experience": [
             {
                 "company": "GlobalCorp",
-                "start_date": "12-17-2023",
+                "start_date": "2023-12-17",
                 "end_date": null
             },
             {
                 "company": "BrightTech",
-                "start_date": "07-04-2024",
+                "start_date": "2024-07-04",
                 "end_date": null
             }
         ]
@@ -1383,12 +1383,12 @@
         "experience": [
             {
                 "company": "CIH",
-                "start_date": "03-21-2024",
+                "start_date": "2024-03-21",
                 "end_date": null
             },
             {
                 "company": "PayTic",
-                "start_date": "07-21-2016",
+                "start_date": "2016-07-21",
                 "end_date": null
             }
         ]
@@ -1405,8 +1405,8 @@
         "experience": [
             {
                 "company": "BrightTech",
-                "start_date": "03-12-2020",
-                "end_date": "07-25-2021"
+                "start_date": "2020-03-12",
+                "end_date": "2021-07-25"
             }
         ]
     },
@@ -1421,17 +1421,17 @@
         "experience": [
             {
                 "company": "CIH",
-                "start_date": "05-21-2016",
-                "end_date": "06-03-2019"
+                "start_date": "2016-05-21",
+                "end_date": "2019-06-03"
             },
             {
                 "company": "BrightTech",
-                "start_date": "10-15-2018",
+                "start_date": "2018-10-15",
                 "end_date": null
             },
             {
                 "company": "FutureWay",
-                "start_date": "12-18-2024",
+                "start_date": "2024-12-18",
                 "end_date": null
             }
         ]
@@ -1447,13 +1447,13 @@
         "experience": [
             {
                 "company": "NextGen Solutions",
-                "start_date": "05-24-2019",
+                "start_date": "2019-05-24",
                 "end_date": null
             },
             {
                 "company": "NextGen Solutions",
-                "start_date": "02-13-2020",
-                "end_date": "11-12-2021"
+                "start_date": "2020-02-13",
+                "end_date": "2021-11-12"
             }
         ]
     },
@@ -1471,7 +1471,7 @@
         "experience": [
             {
                 "company": "PayTic",
-                "start_date": "03-09-2024",
+                "start_date": "2024-03-09",
                 "end_date": null
             }
         ]
@@ -1487,18 +1487,18 @@
         "experience": [
             {
                 "company": "InnovaTech",
-                "start_date": "03-27-2022",
+                "start_date": "2022-03-27",
                 "end_date": null
             },
             {
                 "company": "PayTic",
-                "start_date": "12-25-2020",
+                "start_date": "2020-12-25",
                 "end_date": null
             },
             {
                 "company": "FutureWay",
-                "start_date": "04-08-2020",
-                "end_date": "12-31-2023"
+                "start_date": "2020-04-08",
+                "end_date": "2023-12-31"
             }
         ]
     },
@@ -1516,12 +1516,12 @@
         "experience": [
             {
                 "company": "NextGen Solutions",
-                "start_date": "12-30-2018",
+                "start_date": "2018-12-30",
                 "end_date": null
             },
             {
                 "company": "VisionaryHub",
-                "start_date": "10-08-2022",
+                "start_date": "2022-10-08",
                 "end_date": null
             }
         ]
@@ -1539,7 +1539,7 @@
         "experience": [
             {
                 "company": "PayTic",
-                "start_date": "06-10-2018",
+                "start_date": "2018-06-10",
                 "end_date": null
             }
         ]
@@ -1555,7 +1555,7 @@
         "experience": [
             {
                 "company": "VisionaryHub",
-                "start_date": "05-31-2021",
+                "start_date": "2021-05-31",
                 "end_date": null
             }
         ]
@@ -1572,12 +1572,12 @@
         "experience": [
             {
                 "company": "BrightTech",
-                "start_date": "08-21-2017",
-                "end_date": "04-08-2021"
+                "start_date": "2017-08-21",
+                "end_date": "2021-04-08"
             },
             {
                 "company": "CIH",
-                "start_date": "03-19-2018",
+                "start_date": "2018-03-19",
                 "end_date": null
             }
         ]
@@ -1595,7 +1595,7 @@
         "experience": [
             {
                 "company": "GlobalCorp",
-                "start_date": "05-21-2017",
+                "start_date": "2017-05-21",
                 "end_date": null
             }
         ]
@@ -1613,8 +1613,8 @@
         "experience": [
             {
                 "company": "CIH",
-                "start_date": "08-05-2015",
-                "end_date": "05-09-2017"
+                "start_date": "2015-08-05",
+                "end_date": "2017-05-09"
             }
         ]
     },
@@ -1629,8 +1629,8 @@
         "experience": [
             {
                 "company": "GlobalCorp",
-                "start_date": "03-21-2016",
-                "end_date": "10-30-2024"
+                "start_date": "2016-03-21",
+                "end_date": "2024-10-30"
             }
         ]
     },
@@ -1648,18 +1648,18 @@
         "experience": [
             {
                 "company": "BrightTech",
-                "start_date": "07-18-2017",
-                "end_date": "05-29-2023"
+                "start_date": "2017-07-18",
+                "end_date": "2023-05-29"
             },
             {
                 "company": "PayTic",
-                "start_date": "12-14-2020",
-                "end_date": "06-11-2021"
+                "start_date": "2020-12-14",
+                "end_date": "2021-06-11"
             },
             {
                 "company": "NextGen Solutions",
-                "start_date": "02-24-2021",
-                "end_date": "01-25-2023"
+                "start_date": "2021-02-24",
+                "end_date": "2023-01-25"
             }
         ]
     },
@@ -1676,17 +1676,17 @@
         "experience": [
             {
                 "company": "CIH",
-                "start_date": "05-08-2024",
-                "end_date": "11-07-2024"
+                "start_date": "2024-05-08",
+                "end_date": "2024-11-07"
             },
             {
                 "company": "GlobalCorp",
-                "start_date": "12-16-2016",
-                "end_date": "08-06-2018"
+                "start_date": "2016-12-16",
+                "end_date": "2018-08-06"
             },
             {
                 "company": "InnovaTech",
-                "start_date": "04-22-2022",
+                "start_date": "2022-04-22",
                 "end_date": null
             }
         ]
@@ -1703,7 +1703,7 @@
         "experience": [
             {
                 "company": "BrightTech",
-                "start_date": "01-26-2023",
+                "start_date": "2023-01-26",
                 "end_date": null
             }
         ]
@@ -1721,8 +1721,8 @@
         "experience": [
             {
                 "company": "GlobalCorp",
-                "start_date": "08-20-2023",
-                "end_date": "12-26-2023"
+                "start_date": "2023-08-20",
+                "end_date": "2023-12-26"
             }
         ]
     },
@@ -1739,13 +1739,13 @@
         "experience": [
             {
                 "company": "NextGen Solutions",
-                "start_date": "05-29-2015",
+                "start_date": "2015-05-29",
                 "end_date": null
             },
             {
                 "company": "BrightTech",
-                "start_date": "09-12-2024",
-                "end_date": "12-10-2024"
+                "start_date": "2024-09-12",
+                "end_date": "2024-12-10"
             }
         ]
     },
@@ -1761,7 +1761,7 @@
         "experience": [
             {
                 "company": "GlobalCorp",
-                "start_date": "12-25-2016",
+                "start_date": "2016-12-25",
                 "end_date": null
             }
         ]
@@ -1778,12 +1778,12 @@
         "experience": [
             {
                 "company": "FutureWay",
-                "start_date": "01-30-2017",
-                "end_date": "01-11-2023"
+                "start_date": "2017-01-30",
+                "end_date": "2023-01-11"
             },
             {
                 "company": "VisionaryHub",
-                "start_date": "08-16-2017",
+                "start_date": "2017-08-16",
                 "end_date": null
             }
         ]
@@ -1802,12 +1802,12 @@
         "experience": [
             {
                 "company": "FutureWay",
-                "start_date": "10-27-2018",
+                "start_date": "2018-10-27",
                 "end_date": null
             },
             {
                 "company": "NextGen Solutions",
-                "start_date": "12-24-2015",
+                "start_date": "2015-12-24",
                 "end_date": null
             }
         ]
@@ -1824,18 +1824,18 @@
         "experience": [
             {
                 "company": "BrightTech",
-                "start_date": "04-20-2019",
-                "end_date": "03-27-2022"
+                "start_date": "2019-04-20",
+                "end_date": "2022-03-27"
             },
             {
                 "company": "InnovaTech",
-                "start_date": "07-08-2017",
-                "end_date": "02-13-2018"
+                "start_date": "2017-07-08",
+                "end_date": "2018-02-13"
             },
             {
                 "company": "BrightTech",
-                "start_date": "08-02-2016",
-                "end_date": "10-06-2016"
+                "start_date": "2016-08-02",
+                "end_date": "2016-10-06"
             }
         ]
     },
@@ -1853,8 +1853,8 @@
         "experience": [
             {
                 "company": "PayTic",
-                "start_date": "01-09-2024",
-                "end_date": "04-19-2024"
+                "start_date": "2024-01-09",
+                "end_date": "2024-04-19"
             }
         ]
     },
@@ -1869,12 +1869,12 @@
         "experience": [
             {
                 "company": "BrightTech",
-                "start_date": "09-11-2015",
-                "end_date": "03-07-2022"
+                "start_date": "2015-09-11",
+                "end_date": "2022-03-07"
             },
             {
                 "company": "NextGen Solutions",
-                "start_date": "10-06-2023",
+                "start_date": "2023-10-06",
                 "end_date": null
             }
         ]
@@ -1893,12 +1893,12 @@
         "experience": [
             {
                 "company": "PayTic",
-                "start_date": "12-29-2022",
-                "end_date": "03-26-2024"
+                "start_date": "2022-12-29",
+                "end_date": "2024-03-26"
             },
             {
                 "company": "PayTic",
-                "start_date": "02-26-2016",
+                "start_date": "2016-02-26",
                 "end_date": null
             }
         ]
@@ -1915,13 +1915,13 @@
         "experience": [
             {
                 "company": "VisionaryHub",
-                "start_date": "11-24-2020",
-                "end_date": "05-12-2023"
+                "start_date": "2020-11-24",
+                "end_date": "2023-05-12"
             },
             {
                 "company": "CIH",
-                "start_date": "08-17-2021",
-                "end_date": "10-24-2021"
+                "start_date": "2021-08-17",
+                "end_date": "2021-10-24"
             }
         ]
     },
@@ -1936,7 +1936,7 @@
         "experience": [
             {
                 "company": "FutureWay",
-                "start_date": "04-04-2022",
+                "start_date": "2022-04-04",
                 "end_date": null
             }
         ]
@@ -1953,8 +1953,8 @@
         "experience": [
             {
                 "company": "NextGen Solutions",
-                "start_date": "07-20-2021",
-                "end_date": "02-20-2023"
+                "start_date": "2021-07-20",
+                "end_date": "2023-02-20"
             }
         ]
     },
@@ -1971,8 +1971,8 @@
         "experience": [
             {
                 "company": "InnovaTech",
-                "start_date": "09-25-2015",
-                "end_date": "01-27-2023"
+                "start_date": "2015-09-25",
+                "end_date": "2023-01-27"
             }
         ]
     },
@@ -1990,7 +1990,7 @@
         "experience": [
             {
                 "company": "FutureWay",
-                "start_date": "04-27-2021",
+                "start_date": "2021-04-27",
                 "end_date": null
             }
         ]
@@ -2009,18 +2009,18 @@
         "experience": [
             {
                 "company": "GlobalCorp",
-                "start_date": "07-12-2024",
+                "start_date": "2024-07-12",
                 "end_date": null
             },
             {
                 "company": "InnovaTech",
-                "start_date": "09-03-2018",
-                "end_date": "09-06-2021"
+                "start_date": "2018-09-03",
+                "end_date": "2021-09-06"
             },
             {
                 "company": "InnovaTech",
-                "start_date": "07-09-2021",
-                "end_date": "08-27-2021"
+                "start_date": "2021-07-09",
+                "end_date": "2021-08-27"
             }
         ]
     },
@@ -2035,8 +2035,8 @@
         "experience": [
             {
                 "company": "InnovaTech",
-                "start_date": "08-14-2024",
-                "end_date": "12-23-2024"
+                "start_date": "2024-08-14",
+                "end_date": "2024-12-23"
             }
         ]
     },
@@ -2052,7 +2052,7 @@
         "experience": [
             {
                 "company": "GlobalCorp",
-                "start_date": "11-23-2023",
+                "start_date": "2023-11-23",
                 "end_date": null
             }
         ]
@@ -2068,18 +2068,18 @@
         "experience": [
             {
                 "company": "GlobalCorp",
-                "start_date": "01-16-2020",
+                "start_date": "2020-01-16",
                 "end_date": null
             },
             {
                 "company": "GlobalCorp",
-                "start_date": "03-02-2024",
-                "end_date": "03-02-2024"
+                "start_date": "2024-03-02",
+                "end_date": "2024-03-02"
             },
             {
                 "company": "NextGen Solutions",
-                "start_date": "01-26-2021",
-                "end_date": "03-20-2024"
+                "start_date": "2021-01-26",
+                "end_date": "2024-03-20"
             }
         ]
     },
@@ -2097,13 +2097,13 @@
         "experience": [
             {
                 "company": "PayTic",
-                "start_date": "07-29-2018",
-                "end_date": "12-19-2019"
+                "start_date": "2018-07-29",
+                "end_date": "2019-12-19"
             },
             {
                 "company": "InnovaTech",
-                "start_date": "11-01-2018",
-                "end_date": "03-01-2024"
+                "start_date": "2018-11-01",
+                "end_date": "2024-03-01"
             }
         ]
     },
@@ -2119,7 +2119,7 @@
         "experience": [
             {
                 "company": "BrightTech",
-                "start_date": "06-12-2016",
+                "start_date": "2016-06-12",
                 "end_date": null
             }
         ]
@@ -2138,13 +2138,13 @@
         "experience": [
             {
                 "company": "NextGen Solutions",
-                "start_date": "01-18-2024",
-                "end_date": "12-03-2024"
+                "start_date": "2024-01-18",
+                "end_date": "2024-12-03"
             },
             {
                 "company": "InnovaTech",
-                "start_date": "03-01-2018",
-                "end_date": "06-20-2018"
+                "start_date": "2018-03-01",
+                "end_date": "2018-06-20"
             }
         ]
     },
@@ -2161,18 +2161,18 @@
         "experience": [
             {
                 "company": "NextGen Solutions",
-                "start_date": "02-28-2016",
+                "start_date": "2016-02-28",
                 "end_date": null
             },
             {
                 "company": "CIH",
-                "start_date": "03-01-2022",
-                "end_date": "10-07-2024"
+                "start_date": "2022-03-01",
+                "end_date": "2024-10-07"
             },
             {
                 "company": "PayTic",
-                "start_date": "11-22-2015",
-                "end_date": "04-05-2018"
+                "start_date": "2015-11-22",
+                "end_date": "2018-04-05"
             }
         ]
     },
@@ -2187,12 +2187,12 @@
         "experience": [
             {
                 "company": "NextGen Solutions",
-                "start_date": "09-11-2024",
-                "end_date": "12-06-2024"
+                "start_date": "2024-09-11",
+                "end_date": "2024-12-06"
             },
             {
                 "company": "InnovaTech",
-                "start_date": "09-08-2015",
+                "start_date": "2015-09-08",
                 "end_date": null
             }
         ]

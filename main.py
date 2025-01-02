@@ -2,8 +2,7 @@ import json
 from typing import Any
 from fastapi import FastAPI
 from opensearchpy import OpenSearch
-from opensearchpy.exceptions import NotFoundError, RequestError
-from opensearchpy.helpers import bulk
+from opensearchpy.exceptions import ConflictError, NotFoundError, RequestError
 
 from os_db_manager import opensearch_manager
 
@@ -43,12 +42,86 @@ def create_index():
     return {"status": "error", "object": response}
 
 
-@app.post("/api/v1/index_doc")
-def index_document(document: dict[str, Any]):
+@app.post("/api/v1/delete_document/{id}")
+def delete_document(id: str):
     client = opensearch_manager.client
-    response = client.index(KMOUAD_INDEX_NAME, document)
-    if response["result"] == "created":
-        return {"status": "success", "message": "Document created successfully."}
+    client = opensearch_manager.client
+    deleted = client.delete(index=KMOUAD_INDEX_NAME, id=id)
+    if deleted["deleted"] >= 0:
+        return {
+            "status": "success",
+            "message": "The index has been cleared successfully.",
+        }
+    return {"status": "error", "message": "", "object": deleted}
+
+
+@app.post("/api/v1/clear_index")
+def clear_index():
+    """
+    PLEASE DON'T USE THIS ENDPOINT IN TESTING, OR PRODUCTION CODE.
+    """
+    client = opensearch_manager.client
+    query = {
+        "query": {"match_all": {}},
+    }
+    client = opensearch_manager.client
+    deleted = client.delete_by_query(index=KMOUAD_INDEX_NAME, body=query)
+    if deleted["deleted"] >= 0:
+        return {
+            "status": "success",
+            "message": "The index has been cleared successfully.",
+        }
+    return {"status": "error", "message": "", "object": deleted}
+
+
+@app.post("/api/v1/create_document/{id}")
+def create_document(id: str, document: dict[str, Any]):
+    client = opensearch_manager.client
+    try:
+        response = client.create(index=KMOUAD_INDEX_NAME, id=f"p{id}", body=document)
+        if response["result"] == "created":
+            return {"status": "success", "message": "Document created successfully."}
+        return {"status": "error", "message": "", "object": response}
+    except ConflictError:
+        return {"status": "error", "message": "ID already exists."}
+
+
+@app.put("/api/v1/update_mapping")
+def update_mapping():
+    client = opensearch_manager.client
+    # Check if id exists in the database.
+    new_mapping = {
+        "properties": {
+            "Hobbies": {
+                "type": "text",
+                "fields": {"keyword": {"type": "keyword", "ignore_above": 256}},
+            },
+            "age": {"type": "long"},
+            "experience": {
+                "properties": {
+                    "company": {
+                        "type": "text",
+                        "fields": {"keyword": {"type": "keyword", "ignore_above": 256}},
+                    },
+                    "end_date": {"type": "date"},
+                    "start_date": {"type": "date"},
+                }
+            },
+            "home_town": {
+                "type": "text",
+                "fields": {"keyword": {"type": "keyword", "ignore_above": 256}},
+            },
+            "name": {
+                "type": "text",
+                "fields": {"keyword": {"type": "keyword", "ignore_above": 256}},
+            },
+        }
+    }
+    response = client.indices.put_mapping(new_mapping, KMOUAD_INDEX_NAME)
+
+    print("response:", response)
+    if response["acknowledged"]:
+        return {"status": "success", "message": "Mapping updated successfully."}
     return {"status": "error", "object": response}
 
 
@@ -75,8 +148,10 @@ def bulk_index():
         data = json.load(f)
 
     bulk_data = ""
-    for item in data:
-        bulk_data += f'{{ "index": {{ "_index": "{KMOUAD_INDEX_NAME}" }} }}\n'
+    for i, item in enumerate(data):
+        bulk_data += (
+            f'{{ "index": {{ "_index": "{KMOUAD_INDEX_NAME}", "_id": "p{i + 1}" }} }}\n'
+        )
         bulk_data += f"{json.dumps(item)}\n"
 
     client = opensearch_manager.client
@@ -92,6 +167,7 @@ def search_documents_with_exact_value(q: str = "", skip: int = 0, size: int = 10
         return {"status": "error", "message": "`q` is mandatory"}
     else:
         query = {
+            "from": skip,
             "size": size,
             "query": {
                 "match": {"name.keyword": q}
@@ -105,26 +181,13 @@ def search_documents_with_exact_value(q: str = "", skip: int = 0, size: int = 10
 @app.get("/api/v1/search")
 def search_documents(q: str = "", skip: int = 0, size: int = 10):
     if not q:
-        query = {"size": size, "query": {"match_all": {}}}
+        query = {"from": skip, "size": size, "query": {"match_all": {}}}
     else:
         query = {
+            "from": skip,
             "size": size,
             "query": {"multi_match": {"query": q, "fields": ["name", "entity_name"]}},
         }
     client = opensearch_manager.client
     items = client.search(body=query, index=KMOUAD_INDEX_NAME)
-    return {"page": 1, "items": items}
-
-
-@app.get("/api/v1/visa_fees")
-def visa_fees(q: str = "", skip: int = 0, size: int = 10):
-    if not q:
-        query = {"size": size, "query": {"match_all": {}}}
-    else:
-        query = {
-            "size": size,
-            "query": {"multi_match": {"query": q, "fields": ["name", "entity_name"]}},
-        }
-    client = opensearch_manager.client
-    items = client.search(body=query, index="dev.paytic.visa_fees")
     return {"page": 1, "items": items}

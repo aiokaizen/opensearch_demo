@@ -1,0 +1,74 @@
+repos:
+  # Ruff: Linting and Formatting
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    # Ruff version.
+    rev: v0.6.7
+    hooks:
+      # Run the linter.
+      - id: ruff
+        args: [ --fix ]
+      # Run the formatter.
+      - id: ruff-format
+
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.13.2
+    hooks:
+      - id: isort
+        name: Isort Import Sorting
+        args: ["--profile", "black"]
+
+  # Darglint: Docstring Linting
+  - repo: https://github.com/terrencepreilly/darglint
+    rev: v1.8.1
+    hooks:
+      - id: darglint
+        name: Darglint Docstring Linting
+        args: ["-v", "2", "-m", "{path}:{line} ({obj}) -> {msg_id}: {msg}"]
+
+  # Pre-commit Hooks: Basic Code Hygiene
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: trailing-whitespace
+        name: Remove Trailing Whitespace
+      - id: end-of-file-fixer
+        name: Ensure Single Trailing Newline
+      - id: check-yaml
+        name: YAML Syntax Check
+      - id: check-added-large-files
+        name: Prevent Adding Large Files
+      - id: check-executables-have-shebangs
+        name: Ensure Executables Have Shebangs
+
+  # Mypy: Type Checking
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.11.2
+    hooks:
+      - id: mypy
+        name: Mypy Type Checking
+        additional_dependencies: ['mypy', 'types-PyYAML', 'types-cachetools']
+        # args: [--strict, --ignore-missing-imports]
+
+  # Secret detection with detect-secrets
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.5.0
+    hooks:
+      - id: detect-secrets
+        description: "Scans for high entropy strings and other secrets in the codebase"
+        args: ['scan']
+
+  # Bandit: Security Analysis
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.9
+    hooks:
+      - id: bandit
+        exclude: ^tests/
+        name: Bandit Security Linting
+
+  # Radon: Code Complexity Analysis
+  - repo: https://github.com/rubik/xenon
+    rev: v0.9.1
+    hooks:
+      - id: xenon
+        name: Xenon Code Complexity
+        args: ["--max-absolute", "B", "--max-modules", "A", "--max-average", "A"
